@@ -14,13 +14,13 @@ aws_dbt_snowflake_project:
 spotify_dbt:
   outputs:
     dev:
-      account: ew23855.eu-north-1.aws
-      database: SPOTIFY_DB
-      password: 4E2aeff157.6821
+      account:
+      database:
+      password: 
       role: ACCOUNTADMIN
       schema: transform
       threads: 3
       type: snowflake
-      user: kazhar
+      user: 
       warehouse: COMPUTE_WH
   target: dev
